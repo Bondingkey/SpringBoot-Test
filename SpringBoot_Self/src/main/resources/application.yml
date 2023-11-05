@@ -1,0 +1,12 @@
+#配置数据库:假的,测试动态注入
+spring:
+  jdbc:
+    datasource:
+      username: root
+      password: GUAN0310
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql//localhost:8080//
+#配置多个yml环境切换
+  profiles:
+    active: pro
+

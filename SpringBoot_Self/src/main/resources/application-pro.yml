@@ -1,0 +1,7 @@
+spring:
+  jdbc:
+    datasource:
+      username: root
+      password: GUAN0310
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: pro/测试环境
